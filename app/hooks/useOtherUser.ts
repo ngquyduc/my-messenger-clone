@@ -4,11 +4,7 @@ import { useMemo } from 'react'
 import { FullConversationType } from '../types'
 
 const useOtherUser = (
-  conversation:
-    | FullConversationType
-    | {
-        users: User[]
-      }
+  conversation: FullConversationType | { users: User[] }
 ) => {
   const session = useSession()
   const otherUser = useMemo(() => {
