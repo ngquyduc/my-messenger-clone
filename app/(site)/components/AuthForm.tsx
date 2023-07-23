@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { FieldValues, SubmitHandler, useForm } from 'react-hook-form'
 import { BsGoogle } from 'react-icons/bs'
 
-import Button from '@/app/components/Buttons'
+import Button from '@/app/components/Button'
 import Input from '@/app/components/inputs/input'
 import axios from 'axios'
 import { signIn, useSession } from 'next-auth/react'
